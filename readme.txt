@@ -1,0 +1,1 @@
+registerMetaType   qt注册自定义类型
