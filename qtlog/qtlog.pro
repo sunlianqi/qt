@@ -4,8 +4,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
 
+#Release 状态下可以取消一些打印信息
 #Release:DEFINES += QT_NO_DEBUG_OUTPUT QT_NO_INFO_OUTPUT
-
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings

@@ -3,7 +3,6 @@
 #include <QFile>
 #include <QtDebug>
 
-
 void customMessageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     QString txt;
@@ -44,6 +43,6 @@ int main(int argc, char *argv[])
     qInfo() << "This is a info message";
     qWarning() << "This is a warning message";
     qCritical() << "This is a critical message";
-    qFatal("This is a fatal message");
+    //qFatal("This is a fatal message");
 
 }
